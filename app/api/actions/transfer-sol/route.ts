@@ -7,7 +7,7 @@ export const GET = async (req: Request) => {
         // icon: "https://i.imgur.com/wKY2gEc.jpeg", // reference 
         icon: `https://drive.google.com/uc?export=view&id=1TPmgCQSTVE5x1WWaXhKy1nRjtf8eX8YC`,
         description: "PET MHA DOG",
-        label: "ADOPT OR SELECT YOUR DOG"
+        label: "ADOPT MHA DOG"
     }
 
     return Response.json(payload, {
