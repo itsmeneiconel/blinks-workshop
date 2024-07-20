@@ -8,7 +8,8 @@ const nextConfig = {
                 port: '',
                 pathname: '/**',
               },
-        ]
+        ],
+        domains: ['drive.google.com']
     }
 };
 
