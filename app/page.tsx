@@ -7,7 +7,7 @@ export default function Home() {
         <Image
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
           src="https://drive.google.com/uc?export=view&id=1TPmgCQSTVE5x1WWaXhKy1nRjtf8eX8YC"
-          alt="Superteam Philippines BUIDLSTATION"
+          alt="BUIDLSTATION Philippines Superteam "
           width={500}
           height={500}
           priority

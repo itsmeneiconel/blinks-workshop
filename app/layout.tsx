@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "STPHL Solana Actions and BLINKS Workshop",
-  description: "Basic Solana Actions and BLINKS",
+  title: "Workshop BLINKS and Actions Solana STPHL",
+  description: ":OOOO 😁 Basic Solana Actions and BLINKS",
 };
 
 export default function RootLayout({
