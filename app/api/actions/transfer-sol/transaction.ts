@@ -10,7 +10,7 @@ export const transferSolTransaction = async (params: TransferSolTransactionParam
     const { from, amount } = params;
 
     const fromPubkey = new PublicKey(from)
-    const toPubkey = new PublicKey('5MaVSc3pAWv6XLYndqeMLd4HNp5smEe4xrnvq94KxEPu'); // static receiver
+    const toPubkey = new PublicKey('HEzct9DkkJxZwpg6Evgy8sbytrv3W71r8q8pdqh9uuMM'); // static receiver
 
     const connection = new Connection(
         process.env.SOLANA_RPC! || clusterApiUrl("devnet"),
@@ -30,7 +30,7 @@ export const transferSolTransaction = async (params: TransferSolTransactionParam
         SystemProgram.transfer({
             fromPubkey: fromPubkey,
             toPubkey: toPubkey,
-            lamports: amount * LAMPORTS_PER_SOL,
+            lamports: amount,
         }),
     );
 
