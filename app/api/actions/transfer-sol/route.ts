@@ -3,11 +3,11 @@ import { transferSolTransaction } from "./transaction";
 
 export const GET = async (req: Request) => {
     const payload: ActionGetResponse = {
-        title: "SuperteamPHL 🇵🇭 Transfer SOL BLINK",
+        title: "PET MHA DOG",
         // icon: "https://i.imgur.com/wKY2gEc.jpeg", // reference 
         icon: `https://drive.google.com/uc?export=view&id=1TPmgCQSTVE5x1WWaXhKy1nRjtf8eX8YC`,
-        description: "Transfer SOL to another wallet",
-        label: "ADOPT ME CUTIE BOI"
+        description: "PET MHA DOG",
+        label: "ADOPT OR SELECT YOUR DOG"
     }
 
     return Response.json(payload, {
