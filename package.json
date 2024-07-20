@@ -9,14 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@solana/actions": "^1.1.2",
-    "@solana/web3.js": "^1.95.0",
+    "@solana/actions": "^1.2.0",
+    "@solana/web3.js": "^1.95.1",
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
-    "@types/node": "^20",
+    "@types/node": "^20.14.11",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
